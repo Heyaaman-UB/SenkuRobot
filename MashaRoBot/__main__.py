@@ -74,24 +74,23 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hey there, I'm *Senku*!
-I'm here to help you manage your groups! Hit Help button below to find out more about how to use me to my full potential[.](https://images6.alphacoders.com/102/thumb-1920-1027254.jpg)
+Hey there, I'm *Cyborg*!
+I'm here to help you manage your groups! Hit Help button below to find out more about how to use me to my full potential[.](https://telegra.ph/file/13446e53bbd3a010063e3.jpg)
 """
-
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕ Aᴅᴅ Mᴇ 🔘", url="t.me/SenkuRobot?startgroup=true"),
+            text="➕ Aᴅᴅ Mᴇ ➕", url="t.me/CyborgProbot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="❔ Aʙᴏᴜᴛ", callback_data="masha_"),
-        InlineKeyboardButton(text="Hᴇʟᴘ 📕", callback_data="help_back"),
+        InlineKeyboardButton(text=" Aʙᴏᴜᴛ", callback_data="masha_"),
+        InlineKeyboardButton(text="Hᴇʟᴘ ", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="📢 News", url="t.me/SenkuNews"),
+            text=" News", url="t.me/SenkuNews"),
         InlineKeyboardButton(
-            text="Sᴜᴘᴘᴏʀᴛ 🆘", url="https://t.me/SenkuSupport"
+            text="Sᴜᴘᴘᴏʀᴛ ", url="https://t.me/SenkuSupport"
         ),
     ],
 ]
@@ -103,7 +102,7 @@ HELP_STRINGS = """
  • `/help` `<module name>`*:* PM's you info about that module.
  • `/donate`*:* information on how to donate!
  • `/settings`*:*
-   - in PM: will send you your settings for all supported modules[.](https://images6.alphacoders.com/102/thumb-1920-1027254.jpg)
+   - in PM: will send you your settings for all supported modules[.](https://telegra.ph/file/bd5dd07fea580edd8a8de.jpg)
    - in a group: will redirect you to pm, with all that chat's settings.
 
 """
